@@ -1,6 +1,6 @@
 import React from "react";
-import Navigation from "./components";
 import "./globals.css";
+import Navigation from "./components";
 import { Quicksand } from "next/font/google";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
@@ -17,8 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={quicksand.className}>
-        <Navigation />
+      <body className={quicksand.className}><Navigation />
         {children}</body>
     </html>
   );

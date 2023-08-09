@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Navbar from "./navbar";
+import NavBar from "./navbar";
 import Sidebar from "./sidebar";
 
 const Navigation = () => {
@@ -12,7 +12,7 @@ const Navigation = () => {
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
+      <NavBar />
     </>
   );
 };
