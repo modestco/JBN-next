@@ -55,3 +55,4 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
 };
 
 export default Navbar;
+
