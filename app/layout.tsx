@@ -1,6 +1,6 @@
 import React from "react";
 import "./globals.css";
-import Navigation from "./components";
+import Navigation from "./components/Navigation";
 import { Quicksand } from "next/font/google";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
