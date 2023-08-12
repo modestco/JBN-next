@@ -7,34 +7,14 @@ function NavBar() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">JBN</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar bg="primary" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-
-      <br />
-      <Navbar bg="light" data-bs-theme="light">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#home">HOME</Nav.Link>
+            <Nav.Link href="#merch">MERCH</Nav.Link>
+            <Nav.Link href="#schedule">SCHEDULE</Nav.Link>
+            <Nav.Link href="#tips">TIP YOUR STREAMER</Nav.Link>
+            <Nav.Link href="#subscribe">SUBSCRIBE NOW</Nav.Link>
+            <Nav.Link href="#social">CHECK SOCIALS</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
